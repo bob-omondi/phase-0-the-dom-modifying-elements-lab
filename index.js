@@ -1,4 +1,5 @@
-var testOne = document.getElementById("btn")
-testOne.addEventListener("click", function(){
-    alert("you've clicked me")
-})
+const main = document.getElementById('main');
+main.remove();
+const newHeader = document.createElement('h1');
+newHeader.setAttribute('id','victory');
+newHeader.textContent = 'ken is the champion';
